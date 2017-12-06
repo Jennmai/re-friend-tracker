@@ -114,13 +114,15 @@
                     "id": "ActivityForm",
                     "title": "Activity",
                     "formFieldList": [
-                        {
-                            "id": "name",
-                            "type": "text",
-                            "name": "Activity name",
-                            "width": 2,
-                            "required": true
-                        },  {
+       {
+                            "id":   "Activity Name",
+                            "type": "autocomplete",
+                            "name": "Activity Name",
+                            "data": [ "Schwimmen", "Kino" ],
+                            "form": "ActivityForm",
+                            "width": 2
+                        },
+						{
                             "id": "name",
                             "type": "text",
                             "name": "Date",
